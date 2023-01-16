@@ -1,28 +1,51 @@
-Introduction:
-This readme.txt file provides a description of the Gherkin 
-test cases that have been created by Carlos Castrillo to 
-test the login, signup, log out, adding a product to the 
-cart and validating the product in the cart functionality 
-on the website https://www.demoblaze.com/index.html
-The Faker library is used to generate unique users for each 
-test execution.
+♦ Introduction
+This project is a collection of end-to-end tests built with Cypress, it allows you to test the functionality of your web application.
 
-Test Cases:
-The test cases are written in Gherkin language and are 
-organized into different scenarios. Each scenario covers 
-a specific aspect of the login, signup, log out, adding a 
-product to the cart and validating the product in the cart 
-functionality. They are written in the third person and 
-are detailed and easy to understand.
+♦ Prerequisites
+Before you begin, ensure you have installed the following on your system:
 
-Testing the login functionality:
-The test cases for testing the login functionality include 
-scenarios for successful login, unsuccessful login due to 
-incorrect username or password, unsuccessful login due to 
-blank fields and testing the remember me function.
+ Node.js
+ Cypress
+ 
+♦ Installation
+To install the project, follow these steps:
 
-Testing the signup functionality:
-The test cases for testing the signup functionality include 
-scenarios for successful signup, unsuccessful signup due to 
-invalid email, mismatch password, blank fields, and already 
-registered email.
+1. Clone the repository by running the following command:
+> git clone https://github.com/castrilloc/EjerciciosAutomationBaufest_CarlosCastrillo.git
+
+2. Navigate to the project directory by running the following command:
+> cd cypress-test-project
+
+3. Install the project dependencies by running the following command:
+> npm install
+
+♦ Execution
+To run the tests, follow these steps:
+
+1. Start the development server of your web application.
+
+2. Open a terminal and navigate to the project directory.
+
+3. Run the Cypress tests by running the following command:
+> npx cypress open
+
+>>This command will open the Cypress Test Runner, 
+where you can select and run the tests.
+
+♦ Additional Commands
+> npx cypress run - runs the tests in headless mode
+> npx cypress run --record - runs the tests and records the results on 
+the Cypress Dashboard
+
+♦ Conclusion
+This project provides a set of tests that can be used to test differents  
+functionalities on the "https://www.demoblaze.com/index.html" 
+webpage using Cypress. 
+
+This TC's ensure that the web app is working as expected.
+
+♦ Contributing
+If you wish to contribute to this project, please follow the guidelines in the CONTRIBUTING document.
+
+♦ Acknowledgments
+Cypress
