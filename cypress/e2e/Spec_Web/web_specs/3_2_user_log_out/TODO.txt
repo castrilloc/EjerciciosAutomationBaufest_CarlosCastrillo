@@ -1,0 +1,4 @@
+falta agregar (una vez estén listos) 
+los tc de log out con articulos en el carrito.
+♦ tc02-userLogOut
+♦ tc03-userLogOut

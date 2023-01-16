@@ -1,0 +1,26 @@
+{
+  "name": "challengebaufest",
+  "version": "1.0.0",
+  "description": "Ejercicios de Automation para Baufest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castrilloc/EjerciciosAutomationBaufest_CarlosCastrillo.git"
+  },
+  "author": "Carlos Castrillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castrilloc/EjerciciosAutomationBaufest_CarlosCastrillo/issues"
+  },
+  "homepage": "https://github.com/castrilloc/EjerciciosAutomationBaufest_CarlosCastrillo#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
