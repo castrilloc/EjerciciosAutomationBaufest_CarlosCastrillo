@@ -1,6 +1,6 @@
 Feature: User Log in
 
-    USER STORY -> BAUFEST CHALLENGE
+    USER STORY -> BAUFEST WEB CHALLENGE
     
     #tc01-user_log_in
     Scenario: Successful log in

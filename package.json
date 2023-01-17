@@ -21,6 +21,7 @@
     "cypress": "^12.3.0"
   },
   "dependencies": {
+    "chai-json-schema": "^1.5.1",
     "cypress-xpath": "^2.0.1"
   }
 }

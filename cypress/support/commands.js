@@ -85,4 +85,61 @@ Cypress.Commands.add('productAdded', () => {
   //Validation of product added
   cy.intercept('POST', 'https://api.demoblaze.com/addtocart')
   .as('addToCart')
-  })
+  });
+
+  
+//♦♦♦PETS♦♦♦
+  // Getting the pet
+  Cypress.Commands.add("getPet", (petId) => {
+    return cy.request({
+      method: 'GET',
+      url: `https://petstore.swagger.io/v2/pet/${petId}`,
+    });
+  });
+
+  //Data pet creation
+  Cypress.Commands.add("createPet", (petData) => {
+    return cy.request({
+      method: 'POST',
+      url: 'https://petstore.swagger.io/v2/pet',
+      body: petData
+    });
+  });
+
+  //validation of Response Schema
+  import chai from 'chai';
+  import chaiJsonSchema from 'chai-json-schema';
+  import responseSchema from '../e2e/Response-schema/response-schema.json';
+  Cypress.Commands.add("validationResponseSchema", () => {
+    chai.use(chaiJsonSchema);
+
+    const body = {
+      "id": 0,
+      "category": {
+      "id": 0,
+      "name": "string"
+      },
+      "name": "Atlasian",
+      "photoUrls": [
+      "string"
+      ],
+      "tags": [
+      {
+      "id": 0,
+      "name": "string"
+      }
+      ],
+      "status": "available"
+      }
+      cy.log('Sending request with body:', body);
+      cy.request({
+        method: 'PUT',
+        url: 'https://petstore.swagger.io/v2/pet',
+        body: body
+      }).then((response) => {
+        cy.log('Response received with status:', response.status);
+        cy.log('Response received with body:', response.body);
+        expect(response.status).to.eq(200);
+        chai.expect(response.body).to.be.jsonSchema(responseSchema);
+        }).as("response_schema_OK");
+  });

@@ -1,5 +1,5 @@
 ♦ Introduction
-This project is a collection of end-to-end tests built with Cypress, it allows you to test the functionality of your web application.
+This project is a collection of end-to-end tests built with Cypress, it allows you to test the functionality of your web and web services application.
 
 ♦ Prerequisites
 Before you begin, ensure you have installed the following on your system:
@@ -42,10 +42,13 @@ This project provides a set of tests that can be used to test differents
 functionalities on the "https://www.demoblaze.com/index.html" 
 webpage using Cypress. 
 
-This TC's ensure that the web app is working as expected.
-
-♦ Contributing
-If you wish to contribute to this project, please follow the guidelines in the CONTRIBUTING document.
+This TC's ensure that the web app and the web services are working as expected.
 
 ♦ Acknowledgments
-Cypress
+- Cypress
+- Cypress documentation
+- Chai documentation
+- Chai-json-schema documentation
+
+🖋 Author
+Carlos Castrillo

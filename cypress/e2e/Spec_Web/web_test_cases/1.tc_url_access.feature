@@ -1,6 +1,6 @@
 Feature: Access to the URL
 
-    USER STORY -> BAUFEST CHALLENGE
+    USER STORY -> BAUFEST WEB CHALLENGE
 
     #tc01-url_access
     Scenario: Successful access to homepage

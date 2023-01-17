@@ -1,6 +1,6 @@
 Feature: User Sign up
 
-    USER STORY -> BAUFEST CHALLENGE
+    USER STORY -> BAUFEST WEB CHALLENGE
     
     #tc01-user_sign_up
     Scenario: Successful sign up

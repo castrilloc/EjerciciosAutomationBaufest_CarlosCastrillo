@@ -1,6 +1,6 @@
 Feature: User adding product to the cart
 
-    USER STORY -> BAUFEST CHALLENGE
+    USER STORY -> BAUFEST WEB CHALLENGE
     # URL = https://www.demoblaze.com/index.html
     
     #tc01-userAddProduct
