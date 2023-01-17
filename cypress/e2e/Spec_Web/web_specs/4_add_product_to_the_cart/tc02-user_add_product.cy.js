@@ -26,7 +26,7 @@ describe("Web Challenge", () => {
         })
         cy.log('Product_added').as('Product_added_1')
     
-        //Adding two laptops
+    //Adding two laptops
       cy.get("#tbodyid > div.row > div > a")
       .click()
       

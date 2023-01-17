@@ -23,8 +23,5 @@ describe("Web Challenge", () => {
 
     //Validation of the quantity of added products.
     cy.intercept("Post", "https://api.demoblaze.com/view").as("productsQuantity")
-// cy.xpath("(//td[contains(.,'Sony vaio i5')])").each(($el, index, $list) => {
-// cy.log($el.text())
-// })
   })
 })

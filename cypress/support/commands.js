@@ -9,7 +9,7 @@ Cypress	.Commands.add('userAccess', () => {
   cy.log("♦ Successful access ♦").as("log1")
 })
 
-// User valid log ing
+// User valid loging
 Cypress.Commands.add('login', () => {
     cy.clearLocalStorage()
     cy.clearCookies()
