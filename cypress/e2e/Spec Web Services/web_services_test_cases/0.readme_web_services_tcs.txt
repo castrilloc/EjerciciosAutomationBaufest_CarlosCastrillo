@@ -1,15 +1,34 @@
 🚩 Web Services Challenge
-This repository contains code for a Cypress test that validates the response schema of a web service.
+This project includes a series of test cases to validate the functionality of a web service using Cypress.
 
 ♦ Getting Started
-Install Cypress by following the instructions on their website: https://docs.cypress.io/guides/getting-started/installing-cypress.html
-Clone this repository
-In the root of the repository, run the command npm install to install the dependencies.
-Run the command npx cypress open to open the Cypress test runner.
-In the test runner, click on the file test.cy.js to run the test.
-Test Description
-The test sends a PUT request to the endpoint 'https://petstore.swagger.io/v2/pet' with a JSON body that contains the data for a pet.
-The test then verifies that the response has a status of 200 and that the response body matches the schema defined in the file 'response-schema.json'.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+Node.js
+Cypress
+Chai
+Chai-json-schema
+
+♦ Installing
+1. Clone the repository
+git clone https://github.com/castrilloc/EjerciciosAutomationBaufest_CarlosCastrillo
+
+2. Install the dependencies
+npm install
+
+3. Run the Cypress tests
+npx cypress run
+
+♦ Running the tests
+The test cases are located in the cypress/e2e folder. The test files have the extension .cy.js.
+
+You can run the tests by opening the Cypress Test Runner
+
+npx cypress open
+
+or by running the command
+npx cypress run
 
 ♦ Built With
 Cypress - End-to-End testing framework

@@ -49,6 +49,9 @@ This TC's ensure that the web app and the web services are working as expected.
 - Cypress documentation
 - Chai documentation
 - Chai-json-schema documentation
+- API testing
+
+CYPRESS_RECORD_KEY be0ea563-09d3-477e-95e6-336881edb4f1
 
 🖋 Author
 Carlos Castrillo
