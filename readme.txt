@@ -1,5 +1,5 @@
 ♦ Introduction
-This project is a collection of end-to-end tests built with Cypress, it allows you to test the functionality of your web and web services application.
+This project is a collection of end-to-end tests built with Cypress, it allows you to test the functionality of Swagger Petstore web and web services application.
 
 ♦ Prerequisites
 Before you begin, ensure you have installed the following on your system:
